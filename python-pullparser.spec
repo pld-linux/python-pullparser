@@ -10,7 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
 # Source0-md5:	ccad8a56752b1f09ccb64176086a45d4
 URL:		http://wwwsearch.sourceforge.net/pullparser/
-Requires:       python-modules >= 2.2
+Requires:	python-modules >= 2.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,8 +36,8 @@ python setup.py build
 rm -rf $RPM_BUILD_ROOT
 
 python setup.py install \
-       --root=$RPM_BUILD_ROOT \
-       --optimize=2
+	--root=$RPM_BUILD_ROOT \
+	--optimize=2
 
 rm $RPM_BUILD_ROOT/%{py_sitescriptdir}/*.py
 
