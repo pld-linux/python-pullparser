@@ -3,12 +3,12 @@
 Summary:	Python package providing a module for parsing HTML
 Summary(pl):	Pakiet zawieraj±cy modu³ analizatora HTML
 Name:		python-%{module}
-Version:	0.0.4b
-Release:	0.1
+Version:	0.0.5b
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
-# Source0-md5:	ccad8a56752b1f09ccb64176086a45d4
+# Source0-md5:	e4e238ead1d1e421cc5866c8e3f9153f
 URL:		http://wwwsearch.sourceforge.net/pullparser/
 Requires:	python-modules >= 2.2
 BuildArch:	noarch
