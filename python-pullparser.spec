@@ -5,7 +5,7 @@ Summary(pl):	Pakiet zawieraj±cy modu³ analizatora HTML
 Name:		python-%{module}
 Version:	0.0.4b
 Release:	0.1
-License:	Perl Artistic license
+License:	Artistic
 Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
 # Source0-md5:	ccad8a56752b1f09ccb64176086a45d4
@@ -46,7 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-
+%doc ChangeLog GeneralFAQ.html README.html
 %{py_sitescriptdir}/*.py[co]
-
-%doc ChangeLog COPYING GeneralFAQ.html INSTALL README.html README.txt
