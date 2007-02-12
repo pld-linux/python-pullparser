@@ -1,7 +1,7 @@
 %define 	module	pullparser
 
 Summary:	Python package providing a module for parsing HTML
-Summary(pl):	Pakiet zawieraj±cy modu³ analizatora HTML
+Summary(pl.UTF-8):   Pakiet zawierajÄ…cy moduÅ‚ analizatora HTML
 Name:		python-%{module}
 Version:	0.0.5b
 Release:	1
@@ -20,11 +20,11 @@ Many simple HTML parsing tasks are simpler this way than with the
 HTMLParser module. pullparser.PullParser is a subclass of
 HTMLParser.HTMLParser.
 
-%description -l pl
+%description -l pl.UTF-8
 Prosty analizator HTML, inspirowany perlowym HTML::TokeParser. Wiele
-prostych zadañ zwi±zanych z przetwarzaniem HTML mo¿na nim zrobiæ
-³atwiej ni¿ za pomoc± modu³u HTMLParser. pullparser.PullParser jest
-podklas± HTMLParser.HTMLParser.
+prostych zadaÅ„ zwiÄ…zanych z przetwarzaniem HTML moÅ¼na nim zrobiÄ‡
+Å‚atwiej niÅ¼ za pomocÄ… moduÅ‚u HTMLParser. pullparser.PullParser jest
+podklasÄ… HTMLParser.HTMLParser.
 
 %prep
 %setup -q -n %{module}-%{version}
