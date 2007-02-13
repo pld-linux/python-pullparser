@@ -1,7 +1,7 @@
 %define 	module	pullparser
 
 Summary:	Python package providing a module for parsing HTML
-Summary(pl.UTF-8):   Pakiet zawierający moduł analizatora HTML
+Summary(pl.UTF-8):	Pakiet zawierający moduł analizatora HTML
 Name:		python-%{module}
 Version:	0.0.5b
 Release:	1
