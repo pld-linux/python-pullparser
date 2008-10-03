@@ -4,7 +4,7 @@ Summary:	Python package providing a module for parsing HTML
 Summary(pl.UTF-8):	Pakiet zawierający moduł analizatora HTML
 Name:		python-%{module}
 Version:	0.0.5b
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
