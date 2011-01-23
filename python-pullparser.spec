@@ -10,6 +10,8 @@ Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
 # Source0-md5:	e4e238ead1d1e421cc5866c8e3f9153f
 URL:		http://wwwsearch.sourceforge.net/pullparser/
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python-modules >= 2.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
